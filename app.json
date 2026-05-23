@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "StitchPrice",
+    "slug": "stitchprice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#71b43b"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tuapp.stitchprice"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#71b43b"
+      },
+      "package": "com.tuapp.stitchprice"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "stitchprice",
+    "plugins": ["expo-router"]
+  }
+}
